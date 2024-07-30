@@ -1,6 +1,6 @@
-﻿namespace E_commerceShop.Models
+﻿namespace E_commerceShop.ModelsDto
 {
-    public class Product
+    public class EntityChangeDto
     {
         public int Id { get; set; }
         public string Name { get; set; }

@@ -1,9 +1,16 @@
-﻿namespace E_commerceShop.Models
+﻿using E_commerceShop.Models;
+
+namespace E_commerceShop.ModelsDto
 {
-    public class Product
+    public class ProductDto
     {
         public int Id { get; set; }
+
         public string Name { get; set; }
+
         public int Quantity { get; set; }
+
+    
+
     }
 }
